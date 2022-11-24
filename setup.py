@@ -8,9 +8,9 @@ setup(
     install_requires=[
         "ConfigArgParse",
         "numpy==1.21",
-        # "torch@https://download.pytorch.org/whl/cu113/torch-1.10.2%2Bcu113-cp39-cp39-linux_x86_64.whl",
-        # "torchvision@https://download.pytorch.org/whl/cu113/torchvision-0.11.3%2Bcu113-cp39-cp39-linux_x86_64.whl",
-        # "pytorch3d@https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py39_cu113_pyt1100/pytorch3d-0.6.1-cp39-cp39-linux_x86_64.whl",
+        "torch==1.12.0",
+        "torchvision==0.13.0",
+        "pytorch3d==0.7.1",
         "matplotlib",
         "tensorboard",
         "scipy",
@@ -18,7 +18,7 @@ setup(
         "chumpy",
         "face-alignment",
         "face-detection-tflite",
-        "pytorch-lightning==1.2.4",
+        "pytorch-lightning==1.2.4"
         "lpips",
         "pytorch_msssim",
         "cpbd@git+https://github.com/wl2776/python-cpbd.git",
